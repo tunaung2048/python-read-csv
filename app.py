@@ -1,8 +1,8 @@
 import pandas as pd
 
 
-data1 = pd.read_csv('list1.csv', sep=',', header=None).values
-data2 = pd.read_csv('list2.csv', sep=',', header=None).values
+data1 = pd.read_csv('list1.csv').values
+data2 = pd.read_csv('list2.csv').values
 
 list1 = []
 list2 = []
